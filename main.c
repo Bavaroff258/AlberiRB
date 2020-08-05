@@ -26,7 +26,7 @@ nodo * Tree_search(nodo *, int);
 void Cancella_Albero2(nodo *);
 
 
-
+//Main di test
 int main()
 {
     nodo *dainserire;
@@ -70,6 +70,8 @@ int main()
     return 0;
 }
 
+
+//Inizio funzioni
 void LeftRotate(nodo **radice, nodo* target) {
 
     nodo *y;
