@@ -170,7 +170,7 @@ void RB_insert_fixup(nodo **radice, nodo *nuovo){
         if (nuovo->p == nuovo->p->p->left){
 
             y = nuovo->p->p->right;
-            if (y && y->color == 'R'){
+            if (y != NIL && y->color == 'R'){
 
                 nuovo->p->color = 'B';
                 y->color = 'B';
